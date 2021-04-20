@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="new-game">
+      <div class="game-option">
+        <h1 id="new-game">NEW GAME</h1>
+        <input
+          class="input-row-col"
+          id="count-rows"
+          type="text"
+          placeholder="ROWS"
+        />
+        <input
+          class="input-row-col"
+          id="count-cols"
+          type="text"
+          placeholder="COLS"
+        />
+        <button class="btn-load-game" onclick="newGame()">START</button>
+      </div>
+      <div class="load-game">
+        <h1>CONTINUE GAME</h1>
+        <div class="form-load-game">
+          <h1>GAME ID:</h1>
+          <input class="input-game-id" id="game-id" type="text" />
+          <button class="btn-load-game" onclick="loadGame()">LOAD</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="game"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
