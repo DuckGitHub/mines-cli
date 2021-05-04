@@ -30,8 +30,7 @@ let GAME_ACTIVE = true;
 
 // const BASE_URL = "http://localhost:3000/api/game";
 
-const BASE_URL =
-  "https://irpd63l9t7.execute-api.us-east-2.amazonaws.com/production/api/game";
+const BASE_URL = "https://ajjse67o0i.execute-api.us-east-2.amazonaws.com/production/api/game";
 
 window.oncontextmenu = function () {
   return false;
